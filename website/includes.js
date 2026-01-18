@@ -80,7 +80,7 @@
       <div class="flex items-center gap-8 font-body">
         <a href="${navLinks.features}" class="text-text-muted hover:text-primary transition-colors text-sm">Features</a>
         <a href="${navLinks.docs}" class="text-text-muted hover:text-primary transition-colors text-sm">Documentation</a>
-        <a href="https://github.com/unkarelian/Aventura/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer" class="text-text-muted hover:text-primary transition-colors text-sm">License</a>
+        <a href="https://github.com/unkarelian/Aventura/blob/master/LICENSE.md" target="_blank" rel="noopener noreferrer" class="text-text-muted hover:text-primary transition-colors text-sm">License</a>
       </div>
       <div class="flex gap-4">
         <a href="https://github.com/unkarelian/Aventura" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-surface-dark border border-border-brown flex items-center justify-center text-text-muted hover:text-primary hover:border-primary transition-all" aria-label="GitHub">
