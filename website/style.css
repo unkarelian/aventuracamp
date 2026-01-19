@@ -183,6 +183,33 @@
   filter: drop-shadow(0 25px 45px rgba(0, 0, 0, 0.35)) saturate(1.05);
   transform: translateY(4px);
 }
+.mascot-credit-link {
+  position: relative;
+  display: inline-block;
+}
+.mascot-credit {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  padding: 0.4rem 0.8rem;
+  background: rgba(10, 15, 25, 0.9);
+  border: 1px solid rgba(17, 43, 74, 0.5);
+  border-radius: 0.5rem;
+  color: #e6f0ff;
+  font-family: Noto Sans, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.mascot-credit-link:hover .mascot-credit {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 .hero-visual::before {
   content: "";
   position: absolute;
