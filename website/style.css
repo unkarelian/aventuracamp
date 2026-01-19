@@ -186,6 +186,7 @@
 .mascot-credit-link {
   position: relative;
   display: inline-block;
+  z-index: 10;
 }
 .mascot-credit {
   position: absolute;
